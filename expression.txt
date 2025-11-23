@@ -1,0 +1,11 @@
+a b c ! & |         // a | (b & !c)
+a b & c &           // (a & b) & c
+!a a &              // !a & a          => UNSAT
+!a a |              // !a | a          => SAT
+!a !b & !c &        // (!a & !b) & !c
+a b | c |           // (a | b) | c
+a b & !c |          // (a & b) | !c
+!a b & c |          // (!a & b) | c
+!d d &              // !d & d          => UNSAT
+!b b &              // !b & b          => UNSAT
+!x x & y &          // (!x & x) & y    => UNSAT
