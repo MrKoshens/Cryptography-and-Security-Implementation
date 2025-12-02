@@ -1,0 +1,1 @@
+This repository has C implementations and small benchmarks for AES, ChaCha20, ChaCha20 with SIMD, Salsa20, RC4, primality tests, RSA with GMP, a simple SAT solver, sorting, timing tools and some helper scripts and PDFs. I took help from ChatGPT and looked at public reference code online like the examples in RFC 6229.
